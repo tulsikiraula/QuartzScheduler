@@ -27,7 +27,7 @@ public class ConnectionProviderTXJobStore {
 				Thread.NORM_PRIORITY);
 
 		Trigger simpleTrigger = TriggerBuilder.newTrigger()
-				.withIdentity("trigger 10")
+				.withIdentity("trigger 11")
 				.withSchedule(SimpleScheduleBuilder.repeatMinutelyForever())
 				.startNow().build();
 
