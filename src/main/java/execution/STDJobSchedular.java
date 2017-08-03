@@ -11,7 +11,7 @@ import org.quartz.Trigger;
 import org.quartz.TriggerBuilder;
 import org.quartz.impl.StdSchedulerFactory;
 
-public class TestJobSchedular {
+public class STDJobSchedular {
 
 	public static void main(String[] args) throws SchedulerException {
 
